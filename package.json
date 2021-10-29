@@ -1,0 +1,33 @@
+{
+  "name": "starshell",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "dev set PORT=3002",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint": "yarn lint:js"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "core-js": "^3.15.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-nuxt": "^1.0.1",
+    "less": "^4.1.2",
+    "less-loader": "5",
+    "nuxt": "^2.15.7",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/eslint-config": "^6.0.1",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "eslint": "^7.29.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-vue": "^7.12.1"
+  }
+}

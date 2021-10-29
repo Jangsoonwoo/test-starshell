@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+/* .section-contents {
+  width: 100%;
+  &.full-width {
+    width: 100%;
+  }
+}
+@media (min-width: 1366px) {
+  html {
+    padding: 0 231px;
+  }
+}
+@media (max-width: 1365px) and (min-width: 1024px) {
+  html {
+    padding: 0 60px;
+  }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+  html {
+    padding: 0 40px;
+  }
+} */
